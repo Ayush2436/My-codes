@@ -1,0 +1,41 @@
+name = input("Write your Name ")
+print ("Write Marsks of your All subject:-")
+H = int(input ("Hindi - "))
+E = int(input ("English - "))
+P = int(input ("Physics - "))
+C = int(input ("Chemistry - "))
+M = int(input ("Maths - "))
+marks = ((H+E+P+C+M)/5)
+print ("Your Percentage is ",marks,'%')
+if (marks >90):
+   print ('Congratulations!',name)
+   print ('''Brilliant! you got 90%+,
+Party to banta h🍻🍻''')
+elif (marks >=80 and marks <90):
+   print("Congratulations!" ,name,\
+          "You got 80%+")
+elif (marks >=75 and marks <80):
+   print ("Congratulations!",name)
+   print ("Good Job! you got 75%+")
+elif (marks >=70 and marks <75):
+     print ("Congratulations!",name)
+     print("You got 70%+, That's good")
+     
+elif (marks >=60 and marks <70):
+   print ("Congratulations!",name, \
+          "You got 60%+")
+elif (marks >=50 and marks <60):
+   print ('Congratulations!',name,\
+          "You got 50%+")
+elif (marks >=40 and marks <50):
+   print ("Congratulations!",name,\
+          "You are passed!")
+else:
+   print ("💀You got below 40%💀")
+   print ('''The only carrier opportunities for you are:-
+          1.Become actor like Shushant Singh Rajput(Fan and rope required)
+          2.Agriculture
+          3.Pithampur ki company me job
+          4.Diploma in ITI
+          ''')
+print ("Wishing you best for your Bright Future✨" )
